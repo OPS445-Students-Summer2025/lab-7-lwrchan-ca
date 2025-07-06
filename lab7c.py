@@ -22,8 +22,8 @@ def sum_times(t1, t2):
     return sum
 
 def change_time(time, seconds):
-    new_time_seconds = time_to_sec(time) + seconds
-    new_time = sec_to_time (new_time_seconds)
+    new_time_seconds = time_to_sec(time) + seconds #use time_to_sec to convert time to seconds
+    new_time = sec_to_time (new_time_seconds) #use sec_to_time to convert to time format of new_time
     return new_time
 
 def time_to_sec(time):
