@@ -5,7 +5,7 @@ t1 = Time(8,0,0)
 t2 = Time(8,55,0)
 t3 = Time(9,50,0)
 
-td = Time(0,50,0)
+td = Time(0,50,50)
 
 tsum1 = sum_times(t1,td)
 tsum2 = sum_times(t2,td)
